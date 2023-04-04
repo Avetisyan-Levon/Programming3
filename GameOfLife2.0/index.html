@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="start.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <title>Game Of Life</title>
+    <style>
+        canvas {
+            display: block;
+            margin: auto;
+            margin-top: 3%;
+        }
+
+
+        h1{
+            font-family: 'Roboto', sans-serif;
+            text-shadow: black 2px 2px;
+            font-style: italic;
+            color: white;
+            text-align: center;
+        }
+        h2{
+            font-family: 'Roboto', sans-serif;
+
+            text-shadow: black 2px 2px;
+            font-style: italic;
+            color: white;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .rest{
+            background-color: grey;
+            color: black;
+            padding: 15px 32px;
+            border:none;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            text-align: center;
+            margin-top: 30px;
+
+
+        }
+        .rest:hover{
+            background-color: white;
+        }
+        .button{
+            text-align: center;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+    <script src="grass.js"></script>
+    <script src="grassEater.js"></script>
+    <script src="predator.js"></script>
+    <script src="amenaker.js"></script>
+    <script src="doctor.js"></script>
+    <script src="virus.js"></script>
+    <script src="zombi.js"></script>
+    <script src="wall.js"></script>
+    <script src="builder.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+   <h1>GAME OF LIFE</h1>
+   <h2>Levon Avetisyan</h2>
+    <div class="button">
+        <button style="--clr:#39FF14"><span><a href="index.html">Restart</a></span><i></i></button>
+    </div>
+    
+    
+</body>
+</html>
